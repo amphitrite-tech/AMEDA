@@ -28,6 +28,9 @@ from . import compute_best_fit
 from . import min_dist_shapes
 from . import concat_eddy
 from . import mod_init
+from . import mod_eddy_tracks
+from . import mod_merging_splitting
+from . import load_fields
 
 __all__ = [
     'utilities',
@@ -47,4 +50,7 @@ __all__ = [
     'min_dist_shapes',
     'concat_eddy',
     'mod_init',
+    'mod_eddy_tracks',
+    'mod_merging_splitting',
+    'load_fields',
 ]
