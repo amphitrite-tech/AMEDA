@@ -24,6 +24,10 @@ from . import eddy_dim
 from . import mod_fields
 from . import mod_eddy_centers
 from . import mod_eddy_shapes
+from . import compute_best_fit
+from . import min_dist_shapes
+from . import concat_eddy
+from . import mod_init
 
 __all__ = [
     'utilities',
@@ -39,4 +43,8 @@ __all__ = [
     'mod_fields',
     'mod_eddy_centers',
     'mod_eddy_shapes',
+    'compute_best_fit',
+    'min_dist_shapes',
+    'concat_eddy',
+    'mod_init',
 ]
